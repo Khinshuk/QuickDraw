@@ -1,0 +1,47 @@
+body{
+    background-image: linear-gradient(rgb(214, 214, 214),rgb(164, 246, 164),rgb(255, 179, 255));  
+  }
+  
+  h1{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   font-style: italic;
+   font-size: 30px;
+   color: rgb(8, 8, 100);
+   background-color: bisque;  
+  }
+  #show_sketch{
+      float: right;
+  }
+  #label,#accuracy{
+      font-size: 15px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic;
+      font-weight: bold;
+  }
+  #to_be_drawn{
+      font-size: 15px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic;
+      font-weight: bold;
+      color: rgb(142, 5, 5);
+  }
+  #score{
+      font-size: 15px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic;
+      font-weight: bold;
+      float: left;  
+  }
+  #time{
+      font-size: 15px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic;
+      font-weight: bold; 
+      float: right;
+  }
+  canvas{
+    margin-top: 150px;
+    border: 5px solid black;
+    border-radius: 15px;
+  }
